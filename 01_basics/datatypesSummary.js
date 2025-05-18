@@ -34,3 +34,5 @@ const myFunction = function(){
 }
 
 console.log(typeof bigNumber)
+
+//read from the ECMA documentation
