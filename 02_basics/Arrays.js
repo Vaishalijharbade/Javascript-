@@ -38,3 +38,5 @@ console.log("C",myArr)
 
 
 
+//In JavaScript, slice() returns a shallow copy of a portion of an array without modifying the original.
+//  In contrast, splice() changes the original array by adding or removing elements and returns the removed items.
