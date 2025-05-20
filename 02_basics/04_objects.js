@@ -47,10 +47,35 @@ const users= [
         email:"k@gmail.com"
     }
 ]
-console.log(users[1].email)
+// console.log(users[1].email)
 
-console.log(Object.keys(tinderUser))
-console.log(Object.values(tinderUser))
-console.log(Object.entries(tinderUser))
+// console.log(Object.keys(tinderUser))
+// console.log(Object.values(tinderUser))
+// console.log(Object.entries(tinderUser))
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+
+const course = {
+    coursename:"js in hindi",
+    price:"999",
+    courseInstructor:"hitesh"
+}
+
+//course.courseInstructor
+
+const{courseInstructor: instructor} = course
+console.log(instructor)
+
+//APIs-> apna kaam kisi ke sar pr daal dena
+
+{
+    "name": "hitesh",
+    "coursename":"js in hindi",
+    "price": "free"
+}
+
+[
+
+]
+
+//go through video no. 18 again
