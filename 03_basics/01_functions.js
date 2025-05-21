@@ -11,7 +11,7 @@ function addTwoNumbers(num1, num2){
 
 const result = addTwoNumbers(34,232)
 
-console.log("Result:", result)
+// console.log("Result:", result)
 
 // function loginUserMessage (username){
 //     return `${username} just logged in`
@@ -43,4 +43,39 @@ function loginUserMessage(username){
     }
 
 }
-console.log(loginUserMessage())
+// console.log(loginUserMessage())
+
+// function calculateCartPrice(...num1){
+//     return num1
+// }
+// console.log(calculateCartPrice(454545,445454,45454,45454));
+
+//Also
+
+function calculateCartPrice(val1,val2,...num1){
+    return num1
+}
+console.log(calculateCartPrice(45,4542,63,78));
+
+const user={
+    username:"vaishali",
+    price: 199
+}
+
+function handleObject(anyobject){
+  console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`)
+}
+
+// handleObject(user) //calling function
+
+handleObject({//calling function
+    username:"Vaish",
+    price:5656
+})
+
+const myNewArray =[200,400,600,100]
+
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+console.log(returnSecondValue(myNewArray))
